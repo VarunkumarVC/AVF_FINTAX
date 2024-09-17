@@ -233,7 +233,10 @@
     left: -50%;
     width: 100%;
     height: 100%;
-    background: var(--primary);
+    background-image: url(../bgcover.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
     transform: skew(20deg);
     z-index: 1;
 }
